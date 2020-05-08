@@ -1,0 +1,60 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/tuxihc/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/tuxihc/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/tuxihc/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/tuxihc/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/tuxihc/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/tuxihc/src/AVR/platformio-simavr-example/example-with-vcd/include",
+                "/home/tuxihc/src/AVR/platformio-simavr-example/example-with-vcd/src",
+                "/usr/local/include",
+                "/home/tuxihc/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/tuxihc/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                "/home/tuxihc/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/tuxihc/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/tuxihc/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/tuxihc/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/tuxihc/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/tuxihc/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/tuxihc/src/AVR/platformio-simavr-example/example-with-vcd/include",
+                    "/home/tuxihc/src/AVR/platformio-simavr-example/example-with-vcd/src",
+                    "/usr/local/include",
+                    "/home/tuxihc/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/tuxihc/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs",
+                    "/home/tuxihc/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=40303",
+                "ARDUINO_AVR_NANO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__PLATFORMIO_BUILD_DEBUG__",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/tuxihc/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
